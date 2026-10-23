@@ -7,4 +7,6 @@ venv/
 
 
 dataset/
-
+*.keras
+*.h5
+*.pkl

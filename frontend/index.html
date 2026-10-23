@@ -41,8 +41,6 @@
       <a href="#problem" data-i="nProblem">Problem</a>
       <a href="#how" data-i="nHow">How it works</a>
       <a href="#try" data-i="nTry">Try it</a>
-      <a href="#plan" data-i="nPlan">Study plan</a>
-      <a href="#refs" data-i="nRefs">References</a>
     </nav>
     <div class="tools">
       <div class="lang" role="group" aria-label="Language">
@@ -175,79 +173,7 @@
       </div>
     </section>
 
-    <!-- STUDY PLAN -->
-    <section class="sec" id="plan">
-      <div class="wrap">
-        <p class="kicker">Study plan</p>
-        <h2 class="title">Scope, evaluation, and <em>ethics</em></h2>
-
-        <div class="three">
-          <div class="card">
-            <h3>Scope</h3>
-            <ul>
-              <li>Eight provisional classes: okra, eggplant, bitter melon, water spinach, Malabar spinach, jute mallow, squash, yardlong bean</li>
-              <li>Uploads a seed image, shows a predicted class and confidence, then the guide</li>
-              <li>General crop requirements only; no soil diagnosis from a seed photo</li>
-            </ul>
-          </div>
-          <div class="card">
-            <h3>Limitations</h3>
-            <ul>
-              <li>Not every vegetable or local variety is covered</li>
-              <li>Blur, shadows, clutter, and camera quality affect results</li>
-              <li>Usability testing uses a limited sample and cannot represent all Iloilo households</li>
-            </ul>
-          </div>
-          <div class="card">
-            <h3>Ethics</h3>
-            <ul>
-              <li>Voluntary participation with informed consent</li>
-              <li>No personally identifying data collected</li>
-              <li>Uploaded photos not stored without agreement (Data Privacy Act of 2012)</li>
-              <li>Fertilizer and pest products used per their labels</li>
-            </ul>
-          </div>
-        </div>
-
-        <h3 class="sub">How success will be measured</h3>
-        <div class="targets">
-          <div class="tgt"><b>≥ 0.85</b><span>macro-averaged F1-score on the held-out test set</span></div>
-          <div class="tgt"><b>≤ 3 s</b><span>average prediction time per image</span></div>
-          <div class="tgt"><b>≥ 4.0 / 5</b><span>mean clarity rating of the Hiligaynon guide</span></div>
-        </div>
-        <div class="note">These are provisional targets, not findings. Missing them is a valid result and will be reported. No model-performance or usability results are claimed yet; they will be added after implementation and testing.</div>
-
-        <div class="two tight">
-          <div class="card">
-            <h3>Data and fairness of testing</h3>
-            <p>At least 100 verified images per class (800+ total) from labeled local seed packets, photographed on varied backgrounds, lighting, and at least two phone models. Images are split by photo session or seed lot so near-duplicates never appear in both training and test sets. The test set is not used for tuning.</p>
-          </div>
-          <div class="card">
-            <h3>Metrics and users</h3>
-            <p>Accuracy, per-class and macro precision, recall, F1, a confusion matrix, and prediction time. Usability uses the System Usability Scale plus clarity items, planned with 20 to 30 adult household gardeners in Iloilo Province, with Hiligaynon translations checked by fluent speakers and crop advice by an agricultural reviewer.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- REFERENCES -->
-    <section class="sec alt" id="refs">
-      <div class="wrap">
-        <p class="kicker">References</p>
-        <h2 class="title">Built on <em>published work</em></h2>
-        <ul class="refs">
-          <li>Eryigit, R., &amp; Ar, Y. (2023). Deep learning-based classification of image data sets containing 111 different seeds. <i>Advanced Theory and Simulations.</i></li>
-          <li>Sandler, M., et al. (2018). MobileNetV2: Inverted residuals and linear bottlenecks. <i>CVPR</i>, 4510-4520.</li>
-          <li>Pan, S. J., &amp; Yang, Q. (2010). A survey on transfer learning. <i>IEEE TKDE</i>, 22(10), 1345-1359.</li>
-          <li>Kamilaris, A., &amp; Prenafeta-Boldú, F. X. (2018). Deep learning in agriculture: A survey. <i>Computers and Electronics in Agriculture</i>, 147, 70-90.</li>
-          <li>Miura, S., Kunii, O., &amp; Wakai, S. (2003). Home gardening in urban poor communities of the Philippines. <i>Int. J. Food Sciences and Nutrition</i>, 54(1), 77-88.</li>
-          <li>Lagdameo, J. L. D., et al. (2024). Household vegetable gardening in Quezon City, Philippines: Practices, benefits, and constraints.</li>
-          <li>Philippine Statistics Authority. (2023). Tagalog is the most widely spoken language at home (2020 Census of Population and Housing).</li>
-          <li>FAO. (2013). Improving nutrition through home gardening: A training package for preparing field workers in Southeast Asia.</li>
-          <li>Brooke, J. (1996). SUS: A quick and dirty usability scale.</li>
-        </ul>
-      </div>
-    </section>
+   
   </main>
 
   <footer>
